@@ -25,3 +25,7 @@ An initial exploration phase showed that the logistic regression classifier was 
 
 **(2) Model 2 -- Multi-class Classification model to categorise tweets** <br/> 
 Customer tweets are clustered using K-means to form K clusters based on the content of the company responses to the tweet. This clustering algorithm will be repeated on the Twitter dataset, which will generate the K clusters (or categories in our case), and the most frequent words for each case. These words would be used for determining which tweet falls into which category, and can therefore aid the company in determining a suitable response for every tweet from each of the categories.
+
+## Codes Position Specification
+**./Data ** <br/> 
+Include all the datasets we used. The 'fromkaggle.csv' is the original kaggle data.
